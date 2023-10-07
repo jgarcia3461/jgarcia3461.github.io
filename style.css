@@ -60,6 +60,28 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-.img1 {
- 
+.menu {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    scale: 2;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.c {
+    font-family: 'DM Serif Display', serif;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-inline: 192px;
 }
