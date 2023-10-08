@@ -85,3 +85,19 @@ body {
     white-space: nowrap;
     margin-inline: 192px;
 }
+.final {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   .img {
+     max-width: 20px;
+     max-height:20px;
+   }
+   
+   .text {
+     font-size: 40px;
+    margin-left: 100px;
+   }
