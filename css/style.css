@@ -202,6 +202,12 @@ li{
    font-size: 30px;
   margin-left: 65%;
   }
+  table {
+    border: 1px solid #000;
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    width: 45%; 
+  }
   /* social media */
   .instagram{
   height: 20px;
