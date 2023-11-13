@@ -1,65 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="style.css">
-            <title>Duck Cafe</title>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
-                </style>
-            <link rel="shortcut icon" href="https://github.com/jgarcia3461/jgarcia3461.github.io/blob/main/SILLY%20GOOSE%20(1).jpg?raw=true">
-    </head>
-    <body>
-        <header class="header-main">
-             <div class="header-main-logo">
-                <img src="SILLY GOOSE (1).jpg" alt="logo">
-                <nav class="header-main-nav">
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="./webdev1/index.html">PREVIOUS CLASSES</a></li>
-                        <li><a href="./about/index.html">ABOUT US</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
-                </div>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favi.png">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo"><img src="./images/logo.jpg" alt="logo"></a>
+    
+            <div class="hamburger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
             </div>
-             <div class="header-main-sm"></div>
-        </header>
-        <br><br><br><br>
-        <h2 class="Intro">THE SILLY GOOSE CAFE</h2>
-        <br>
-        <p class="pp"> We adore ducks and coffee, in fact we love them so much we decided to theme a cafe after them. While a <i>goose</i> is not a duck, we do not care.</p>
-        <p class="pp"> We promise to dedicate donating 50% of profits to duck related charities. The other 50% to improving and revising.</p>
-        <br>
-        <h3 class="menu">MENU <i>(working progress)</i> </h3>
-        <div class="row">
-            <div class="column">
-              <img src="https://images.absolutdrinks.com/drink-images/Raw/Kahlua/8317f0a2-a13e-4eeb-954a-ae1d603537a6.jpg" alt="Snow" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="https://www.theflavorbender.com/wp-content/uploads/2020/05/French-Croissants-SM-2363-500x500.jpg" alt="Forest" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="https://www.mybakingaddiction.com/wp-content/uploads/2010/08/close-up-giant-smores-cookie-hero.jpg" alt="Mountains" style="width:100%">
-            </div>
-          </div>
-          <div class="food">          
-            <h1 class="c">RICH COFFEE</h1>  
-            <h1 class="c">BUTTER CROISSANTS</h1>
-            <h1 class="c">WARM COOKIES</h1>
-          </div>
-            <br><br><br><br><br<br><br><br><br><br>
-            <div class="final">
-              <div class="image">
-                <img src="action.jpg">
-              </div>
-              <div class="text">
-                <h1>We hope to see you soon!</h1>
-                <p>Real photo of us at an event making coffee for the public.</p>
-              </div>
-    </body>
 
+            <div class="nav__link hide">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="mailto:jgarcia3461@student.gwinnetttech.edu">CONTACT</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">CLASSES</a>
+                    <div class="dropdown-content">
+                        <a href="#">CLASS 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>  
+            </div>
+        </nav>
+        <div class="header_text">
+            <h1 class="Intro">THE SILLY GOOSE CAFE</h1>
+            <br><br>
+            <p class="pp">Making the best coffee possible</p>
+        </div>
+    </header>
 
+    <main>
+        <br><br>
+        <h2 class="mission">MENU <i>(Working progress)</i></h2>
+        <br><br>
+        <div class="cist1510container">
+            <div class="row">
+                <div class="col_by3">
+                    <img src="./images/coffee.jpg" alt="coffee">
+                    <h3>RICH COFFEE</h3>
+                </div>
+                <div class="col_by3">
+                    <img src="./images/cookies.jpg" alt="cookies">
+                    <h3>WARM COOKIES</h3>
+                    
+                </div>
+                <div class="col_by3">
+                    <img src="./images/macaroons.jpg" alt="macaroons">
+                    <h3>SWEET MACAROONS</h3>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br<br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <div class="final">
+            <div class="image">
+              <img src="./images/action.jpeg">
+            </div>
+            <div class="text">
+              <h1>We hope to see you soon!</h1>
+              <p>Real photo of us at an event making coffee for the public.</p>
+            </div>
+        </div>
+    </main>
+    <br><br><br><br><br><br>
+    <footer> 
+        <a href="https://www.instagram.com/dumbidiotjorge1/" class="instagram"><img src="./images/instagram2.jpg" alt="" class="center">
+            <br> 
+            <p class="text_center">Click for Instagram </p>
+        </a>
+        <p class="text_center">outlook: jgarcia3461@student.gwinnetttech.edu</p>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+</body>
 </html>

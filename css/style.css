@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: #FFFae6;
+}
+
+header .header_text{
+    text-align: center;
+    padding: 100px;
+    color: #FFFae6;
+    font-size: medium;
+}
+
+header{
+    width: 100vw;
+    height: 50vh; 
+    background-image: url("../images/footer3.jpg"); 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: cover;
+}
+.header_about{
+  width: 100vw;
+  height: 50vh; 
+}
+
+  
+  a {
+    text-decoration: none;
+    color: #FFFae6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .mission {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+/* for images */
+.hello {
+  max-width: 600px;
+  max-height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Intro {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  scale: 2;
+}
+  /* nav  */
+
+.nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  
+li{
+  list-style: none; display: inline;
+}
+
+  .logo {
+    height: 180px;
+    align-self: flex-start;
+    display: flex;
+  }
+  /* text */
+  .pp {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+  }
+  .menu {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    scale: 2;
+}
+/* for the menu columns */
+.cist1510container {
+  width: 100vw;
+  text-align: center;
+  font-size: larger;
+}
+.cist1510container .row {
+  width: 100vw;
+  padding-left: 10%; 
+  padding-right: 5%;
+}
+.cist1510container .col_by3{
+  float :left; 
+  width:30%; 
+  padding: 20px; 
+  background-image: url(./images/coffee.jpg);
+  
+}
+/* for smaller screens */
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+  
+  .nav__link {
+    position: fixed;
+    width: 94%;
+    top: 5rem;
+    left: 18px;
+    background-color: rgb(150, 153, 153);
+    padding: 20px;
+  }
+  
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav__link a:hover {
+    background-color:burlywood;
+    color: rgb(53, 55, 55);
+    transform: scale(1.3);
+  }
+  
+  .hide {
+    display: none;
+  }
+
+/* Drop Down */  
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #FFFae6;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  
+  .dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:  #FFFae6;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  }
+  
+  .nav a:hover {
+  background-color: burlywood;
+  }
+  
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  
+
+
+  
+
+  .final {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  }
+  .image {
+  margin-left: 60%;
+  }
+  .text {
+   font-size: 30px;
+  margin-left: 65%;
+  }
+  /* social media */
+  .instagram{
+  height: 20px;
+  display: inline;
+  }
+  /* footer*/
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .text_center {
+  text-align: center;
+  color: black;
+  }
+  footer {
+  background-color: white;
+  }
+  
+
+
+/* Desktop */
+  @media screen and (min-width: 600px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  }
