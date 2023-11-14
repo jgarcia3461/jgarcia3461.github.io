@@ -55,6 +55,7 @@ header{
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 700;
   scale: 2;
+  font-size: xx-large;
 }
   /* nav  */
 
@@ -193,14 +194,14 @@ li{
   display: grid;
   align-items: center; 
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5px;
+  margin-left: 20%;
   }
   .image {
-  margin-left: 60%;
+  align-content: center;
   }
   .text {
    font-size: 30px;
-  margin-left: 65%;
+   align-content: center;
   }
   table {
     border: 1px solid #000;
