@@ -11,7 +11,8 @@ body {
 
 header .header_text{
     text-align: center;
-    padding: 60px;
+    position: static;
+    padding: 40px;
     color: #FFFae6;
     font-size: medium;
 }
