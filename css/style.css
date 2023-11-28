@@ -185,7 +185,9 @@ li{
   z-index: 1;
   }
   
-
+  .link22 {
+    color: #000;
+  }
 
   
 
@@ -227,10 +229,10 @@ li{
   /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 25vw;
+    width: 20vw;
     padding: 10px;
-    height: 240px;
-    background-image: linear-gradient(#C4A484,#F2D2BD);
+    height: 200px;
+    background-color: wheat;
   }
 
   .column h2 {
@@ -242,23 +244,24 @@ li{
     content: "";
     display: table;
     clear: both;
+
   }
-  
+  .row {
+    width: 100%;
+    text-align: center;
+  }
 /* Footer Style */
+
+footer{width: 100vw;}
 footer .copyright{
-  width: 100vw; 
+   
   text-align: center;
 }
 
-#footer {
-  bottom: 0;
-  width: 100%;
-  height: 40px;   /* Height of the footer */
-  background: burlywood;
-}
+
 
 .fa-facebook {
-    background: #FFFae6;
+    background: brown;
     color: black;
     height: 25px;
     width: 25px;
@@ -266,13 +269,16 @@ footer .copyright{
   }
   
   .fa-instagram {
-    background: #FFFae6;
+    background: brown;
     color: black;
     height: 25px;
     width: 25px;
     padding: 20px;
   }
-  
+  .classes12 {
+    text-align: center;
+    color: #000;
+  }
 
   /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -280,7 +286,6 @@ footer .copyright{
       width: 100%;
     }
   }
-
 /* Desktop */
   @media screen and (min-width: 600px) {
     .nav__link {
@@ -299,4 +304,23 @@ footer .copyright{
     .hamburger {
       display: none;
     }
+  }
+
+  @media all and (min-width: 481px) and (max-width: 768px) {
+    .column{
+      width: 380px;
+      background-color: wheat;
+     }
+  }
+  @media all and (min-width: 769px) and (max-width: 1279px) {
+    .column{
+      width: 385px;
+      background-color: wheat;
+     }
+  }
+  @media all and (min-width: 1280px){
+   .column{
+    width: 388px;
+    background-color: wheat;
+   }
   }
